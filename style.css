@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+}
+.card {
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.4);
+}
+.card-light {
+  background: #e3e1cf;
+  /* padding: 2em; */
+}
+
+img {
+  width: 100%;
+}
+.card-dark {
+  background: #8c969c;
+  margin: 2em;
+  max-width: 300px !important;
+  padding: 2em;
+  box-shadow: 0 20px 30px -20px rgba(0, 0, 0, 0.4);
+}
